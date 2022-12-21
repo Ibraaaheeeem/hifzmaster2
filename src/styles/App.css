@@ -1,0 +1,112 @@
+.App {
+  background-color: burlywood;
+  justify-content: center;
+}
+
+.sidemenu {
+  width: 20%;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin: 5px;
+  border-color: cadetblue;
+  border-radius: 10px;
+  height: 100vh;
+  overflow-x:hidden;
+  overflow-y:auto; 
+  position: sticky;
+  top: 0;
+}
+
+
+.puzzle-row {
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-level {
+  width: 35px;
+  height: 35px;
+  margin: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-bottom: 15px;
+  background-color: burlywood;
+  border-radius: 50%;
+  color:rgb(0, 0, 0)
+ }
+
+ .current-level-select {
+
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+ }
+
+.range-data {
+  align-items: center;  
+  background-color: burlywood;
+  padding: 10px;
+  padding-left: 17px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+ .navlist {
+  
+  display: flex;
+ }
+
+ ul {
+
+  list-style-type: "";
+  margin-left: -35px;
+ }
+
+ ul li {
+  background-color: burlywood;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid #310d52;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+.opening {
+  margin-left: auto;
+  
+  font-size: 20px;
+  font-family: sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.juz-level {
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+.puzzle-wrapper {
+  display: block;
+  width: auto;
+  border: 1px solid #310d52;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 5px auto;
+}

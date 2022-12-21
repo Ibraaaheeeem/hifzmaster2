@@ -1,0 +1,22 @@
+  .progress-container {
+    width: 100%;
+    position: relative;
+    background-color: "#e0e0de";
+    text-align: center;
+  }
+
+  .progress-filler { 
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .progress-label {
+    font-weight: 'bold';
+    color: white;
+        
+  }
+
+  .controls  {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
